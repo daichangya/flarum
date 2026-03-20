@@ -20,8 +20,14 @@
         "source": "https://github.com/flarum/flarum",
         "docs": "https://docs.flarum.org/"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/daichangya/core"
+        }
+    ],
     "require": {
-        "flarum/core": "^2.0.0-beta.7",
+        "flarum/core": "dev-main",
         "flarum/approval": "*",
         "flarum/bbcode": "*",
         "flarum/emoji": "*",
